@@ -13,7 +13,7 @@ public class AbstractFactoryPatternDemo {
       square.draw();
       //get an object of Shape Square 
       Shape circle = shapeFactory.getShape("CIRCLE");
-      //call draw method of Shape Square
+      //call draw method of Shape circle
       circle.draw();
       
       
