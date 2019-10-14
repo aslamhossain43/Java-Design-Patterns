@@ -17,7 +17,7 @@ public abstract class Shape implements Cloneable {
    public void setId(String id) {
       this.id = id;
    }
-   
+   //when call clone() method then return a copy of shape type--see--ShapeCache
    public Object clone() {
       Object clone = null;
       
