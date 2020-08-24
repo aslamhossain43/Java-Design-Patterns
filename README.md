@@ -23,6 +23,19 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 4. Singleton – Ensures that at most only one instance of an object exists throughout application.
 5. Prototype Pattern - cloning of an existing object and can be customized if needed.
 
+## Structural design patterns
+
+### FAB FF DCP
+
+
+
+
+
+
+
+
+
+
 
 
 
