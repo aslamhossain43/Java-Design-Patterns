@@ -13,3 +13,8 @@ Example: The Adapter pattern in Java is the Arrays.asList().
 3. Behavioral patterns - Used to abstract some kind of variation in behavior.The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
 
 
+## What are Some Design Patterns which are used in the JDK library?
+1. The decorator pattern is used by Wrapper classes.
+2. Singleton pattern is used by Calendar classes (Runtime).
+3. The Wrapper classes use factory pattern like Integer.valueOf().
+4. Event handling frameworks use observer pattern like swing, awt.
