@@ -40,9 +40,9 @@ Example - Credit/Master card.
 
 ### CCTV SSIIMMO(11)
 
-1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request.
-Exmaple: Exception handling.
-2. 
+1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling.
+2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
+3. Template - provides a common sequence. So it defines a final method which tells the sequence of execution.
 
 
 
