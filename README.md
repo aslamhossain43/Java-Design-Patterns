@@ -17,11 +17,15 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 ## Creatioinal design patterns
 
 ### FAB SP(5)
-1. Factory – Creates objects of several related classes without specifying the exact object to be created.
+1. Factory – Creates object without showing logic.
+Example: Shape object creation, if pass "CIRCLE" then return Circle object,
+if pass "SQUARE" then return Square object.
 2. Abstract Factory – It is also called a factory of factories.
-3. Builder – Constructs complex objects using step-by-step approach.
+Example: Factories creation like shape, color etc.
+3. Builder – Construct a complex object from simple objects using step-by-step approach. Example: When object can't be created in single step like in the de-serialization of a complex object. 
 4. Singleton – Ensures that at most only one instance of an object exists throughout application.
-5. Prototype Pattern - cloning of an existing object and can be customized if needed.
+Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc.
+5. Prototype Pattern - cloning of an existing object and can be customized if needed. Example: In game cloning object that reduces memory consume.
 
 ## Structural design patterns
 
