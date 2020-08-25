@@ -18,13 +18,17 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
-Example: Shape object creation, if pass "CIRCLE" then return Circle object,
-if pass "SQUARE" then return Square object.
+Example: The Wrapper classes use factory pattern like Integer.valueOf.
+
 2. Abstract Factory – It is also called a factory of factories.
 Example: Factories creation like shape, color etc.
-3. Builder – Construct a complex object from simple objects using step-by-step approach. Example: When object can't be created in single step like in the de-serialization of a complex object. 
+
+3. Builder – Construct a complex object from simple objects using step-by-step approach. 
+Example: When object can't be created in single step like in the de-serialization of a complex object. 
+
 4. Singleton – Ensures that at most only one instance of an object exists throughout application.
-Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc.
+Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
+
 5. Prototype Pattern - cloning of an existing object and can be customized if needed. Example: In game cloning object that reduces memory consume.
 
 ## Structural design patterns
@@ -32,11 +36,17 @@ Example: Saves memory because object is not created at each request. Only single
 ### FAB FDCP(7)
 
 1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
+
 2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: Arrays.asList().
+
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: It enables the separation of implementation from the interface.
+
 4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new.
-5. Decorator - To add new functionality to an existing object without altering it's structure. Example: The Decorator Pattern is also known as Wrapper.
+
+5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java.
+
 6. Composite - To use a group of objects as a single object.
+
 7. Proxy - provides the control for accessing the original object.
 Example - Credit/Master card.
 
@@ -59,12 +69,13 @@ Example: Iterator
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
-Example: One-to-one, one-to-many etc.
+Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt.
 
 
 
 
-
+## Is it possible to create a clone of a singleton object?
+Yes, it is possible to create a clone of a singleton object.
 
 
 
