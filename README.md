@@ -32,7 +32,9 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently.
 4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found.
 5. Decorator - To add new functionality to an existing object without altering it's structure.
-
+6. Composite - To use a group of objects as a single object.
+7. Proxy - provides the control for accessing the original object.
+Example - Credit/Master card.
 
 
 
