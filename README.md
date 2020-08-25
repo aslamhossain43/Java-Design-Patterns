@@ -43,6 +43,11 @@ Example - Credit/Master card.
 1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling.
 2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
 3. Template - provides a common sequence. So it defines a final method which tells the sequence of execution.
+4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
+5. State - A class behavior changes based on its state.
+6. Strategy - A class behavior or its algorithm can be changed at run time.
+7. Interpreter - Provides a way to evaluate language grammer or expression.
+8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
 
 
 
