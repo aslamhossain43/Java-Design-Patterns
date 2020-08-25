@@ -31,11 +31,11 @@ Example: Saves memory because object is not created at each request. Only single
 
 ### FAB FDCP(7)
 
-1. Facade - Provides an interface hiding complexity of classes, library or framework.
-2. Adapter - Bring existing objects to form another structures which provide new functionality. Arrays.asList().
-3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently.
-4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found.
-5. Decorator - To add new functionality to an existing object without altering it's structure.
+1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
+2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: Arrays.asList().
+3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: It enables the separation of implementation from the interface.
+4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new.
+5. Decorator - To add new functionality to an existing object without altering it's structure. Example: The Decorator Pattern is also known as Wrapper.
 6. Composite - To use a group of objects as a single object.
 7. Proxy - provides the control for accessing the original object.
 Example - Credit/Master card.
@@ -50,12 +50,16 @@ Example - Credit/Master card.
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
 5. State - A class behavior changes based on its state.
 6. Strategy - A class behavior or its algorithm can be changed at run time.
+Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
 7. Interpreter - Provides a way to evaluate language grammer or expression.
+Example: MM/DD/yyyy
 8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
-9. Reduces communication complexity between multiple objects or classes.
+Example: Iterator
+9. Mediator - Reduces communication complexity between multiple objects or classes.
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
+Example: One-to-one, one-to-many etc.
 
 
 
