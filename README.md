@@ -16,7 +16,7 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 
 ## Creatioinal design patterns
 
-### FAB SP
+### FAB SP(5)
 1. Factory – Creates objects of several related classes without specifying the exact object to be created.
 2. Abstract Factory – It is also called a factory of factories.
 3. Builder – Constructs complex objects using step-by-step approach.
@@ -25,9 +25,13 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 
 ## Structural design patterns
 
-### FAB FF DCP
+### FAB FDCP(7)
 
-
+1. Facade - Provides an interface hiding complexity of classes, library or framework.
+2. Adapter - Bring existing objects to form another structures which provide new functionality. Arrays.asList().
+3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently.
+4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found.
+5. Decorator - To add new functionality to an existing object without altering it's structure.
 
 
 
