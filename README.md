@@ -48,6 +48,10 @@ Example - Credit/Master card.
 6. Strategy - A class behavior or its algorithm can be changed at run time.
 7. Interpreter - Provides a way to evaluate language grammer or expression.
 8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
+9. Reduces communication complexity between multiple objects or classes.
+10. Memento - To restore the state of an object to its previous state.
+Example: ctrl+z
+11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
 
 
 
