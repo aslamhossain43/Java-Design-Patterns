@@ -4,7 +4,7 @@
 Design patterns are the best solutions to general problems that software developers faced during software development.
 
 ## Types of design patterns ?
-1. ###### Creational patterns  ###### - Best way to create object at a perticular moment.
+1. Creational patterns - Best way to create object at a perticular moment.
 Example: The Factory pattern is used in Wrapper classes ----- Integer intVal = Integer.valueOf(doubleValue);
 
 2. Structural patterns - How classes and objects can be composed, to form larger structures.
@@ -21,7 +21,7 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 Example: The Wrapper classes use factory pattern like -- Integer intVal = Integer.valueOf(doubleValue);
 
 2. Abstract Factory – It is also called a factory of factories.
-Example: Factories creation to access data from two different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file).
+Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
@@ -37,7 +37,7 @@ Example: Saves memory because object is not created at each request. Only single
 
 1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
 
-2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: Arrays.asList().
+2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);
 
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: It enables the separation of implementation from the interface.
 
