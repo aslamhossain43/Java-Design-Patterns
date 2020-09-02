@@ -24,7 +24,7 @@ Example: The Wrapper classes use factory pattern like Integer.valueOf.
 Example: Factories creation like shape, color etc.
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
-Example: When object can't be created in single step like in the de-serialization of a complex object. 
+Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
 
 4. Singleton – Ensures that at most only one instance of an object exists throughout application.
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
