@@ -4,24 +4,24 @@
 Design patterns are the best solutions to general problems that software developers faced during software development.
 
 ## Types of design patterns ?
-1. Creational patterns - A way to create objects hiding new opreator.
-Example: The Factory pattern is used in Wrapper classes like Integer.valueOf()
+1. ###### Creational patterns  ###### - Best way to create object at a perticular moment.
+Example: The Factory pattern is used in Wrapper classes ----- Integer intVal = Integer.valueOf(doubleValue);
 
-2. Structural patterns - Used to bring existing objects to form another structures which provide new functionality.
-Example: The Adapter pattern in Java is the Arrays.asList().
+2. Structural patterns - How classes and objects can be composed, to form larger structures.
+Example: The Adapter pattern in Java ---- List<String> list = Arrays.asList(arrayObj);
 
-3. Behavioral patterns - Used to abstract some kind of variation in behavior.
-Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
+3. Behavioral patterns - The interaction and responsibility of objects.
+Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the List objects will be sorted. Internally the List objects are interacting with each other to sort.
 
 
 ## Creatioinal design patterns
 
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
-Example: The Wrapper classes use factory pattern like Integer.valueOf.
+Example: The Wrapper classes use factory pattern like -- Integer intVal = Integer.valueOf(doubleValue);
 
 2. Abstract Factory – It is also called a factory of factories.
-Example: Factories creation like shape, color etc.
+Example: Factories creation to access data from two different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file).
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
