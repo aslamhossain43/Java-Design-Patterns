@@ -35,20 +35,21 @@ Example: Saves memory because object is not created at each request. Only single
 
 ### FAB FDCP(7)
 
-1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
+1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.---Tutorialspoint---
 
-2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);
+2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);---Tutorialspoint---
 
-3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: It enables the separation of implementation from the interface.
+3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: See : https://www.youtube.com/watch?v=GPNVN4TnvMU
+Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
 
-4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new.
+4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new.---Tutorialspoint---
 
-5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java.
+5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java.---Tutorialspoint---
 
-6. Composite - To use a group of objects as a single object.
+6. Composite - To use a group of objects as a single object.---Tutorialspoint---
 
 7. Proxy - provides the control for accessing the original object.
-Example - Credit/Master card.
+Example - Credit/Master card.---Tutorialspoint---
 
 ## Behavioral design patterns
 
