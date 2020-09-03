@@ -67,17 +67,21 @@ Benefit : To reuse the codes.
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
 
 5. State - A class behavior changes based on its state.
+Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm
 
 6. Strategy - A class behavior or its algorithm can be changed at run time.
 Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
+https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
 7. Interpreter - Provides a way to evaluate language grammer or expression.
 Example: MM/DD/yyyy
+https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
 
 8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
 Example: Iterator
 
 9. Mediator - Reduces communication complexity between multiple objects or classes.
+https://github.com/MdAslamHossain/Java-Design-Patterns/edit/master/README.md
 
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
