@@ -60,8 +60,9 @@ Example - Credit/Master card.---Tutorialspoint---
 2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
 Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm
 
-3. Template - provides a common sequence. So it defines a final method which tells the sequence of execution.
-Example : 
+3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
+Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm
+Benefit : To reuse the codes.
 
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
 
