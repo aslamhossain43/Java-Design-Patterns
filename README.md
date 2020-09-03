@@ -55,20 +55,32 @@ Example - Credit/Master card.---Tutorialspoint---
 
 ### CCTV SSIIMMO(11)
 
-1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling.
+1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling.https://www.youtube.com/watch?v=Izh9x_VoNUg
+
 2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
+Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+
 3. Template - provides a common sequence. So it defines a final method which tells the sequence of execution.
+Example : 
+
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
+
 5. State - A class behavior changes based on its state.
+
 6. Strategy - A class behavior or its algorithm can be changed at run time.
 Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
+
 7. Interpreter - Provides a way to evaluate language grammer or expression.
 Example: MM/DD/yyyy
+
 8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
 Example: Iterator
+
 9. Mediator - Reduces communication complexity between multiple objects or classes.
+
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
+
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
 Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt.
 
