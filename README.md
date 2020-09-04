@@ -35,7 +35,8 @@ Example: Saves memory because object is not created at each request. Only single
 
 ### FAB FDCP(7)
 
-1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.---Tutorialspoint---
+1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
 
 2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);---https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
 
