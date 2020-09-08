@@ -19,9 +19,10 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
 Example: The Wrapper classes use factory pattern like -- Integer intVal = Integer.valueOf(doubleValue);
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 
 2. Abstract Factory – It is also called a factory of factories.
-Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).
+Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
