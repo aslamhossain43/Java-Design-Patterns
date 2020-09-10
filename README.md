@@ -19,10 +19,10 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
 Example: The Wrapper classes use factory pattern like -- Integer intVal = Integer.valueOf(doubleValue);
-https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm   -----  Shape 
 
 2. Abstract Factory – It is also called a factory of factories.
-Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
+Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm  ----- 
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
@@ -31,28 +31,28 @@ Example: When object can't be created in single step like  Locale locale = new B
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
 
 5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object.
-https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm
+https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm  ---------  Shape clone ShapeCache
 
 ## Structural design patterns
 
 ### FAB FDCP(7)
 
 1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
-https://www.tutorialspoint.com/design_pattern/facade_pattern.htm
+https://www.tutorialspoint.com/design_pattern/facade_pattern.htm  ------ Abstract Factory
 
-2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);---https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
+2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);---https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm   -------  AdvancedMediaPlayer MediaPlayer MediaAdapter
 
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: See : https://www.youtube.com/watch?v=GPNVN4TnvMU
-Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm  ------- DrawAPI   Shape
 
-4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
+4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  ----- One shape one circle
 
-5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java. https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
+5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java. https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm  ----- RedShapDecorator
 
-6. Composite - To use a group of objects as a single object.https://www.tutorialspoint.com/design_pattern/composite_pattern.htm
+6. Composite - To use a group of objects as a single object.https://www.tutorialspoint.com/design_pattern/composite_pattern.htm  ---- CEO
 
 7. Proxy - provides the control for accessing the original object.
-Example - Credit/Master card.https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
+Example - Credit/Master card.https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm  ---------  RealImage ProxyImage
 
 ## Behavioral design patterns
 
