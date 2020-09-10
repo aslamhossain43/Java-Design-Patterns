@@ -61,20 +61,20 @@ Example - Credit/Master card.https://www.tutorialspoint.com/design_pattern/proxy
 1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling.https://www.youtube.com/watch?v=Izh9x_VoNUg
 
 2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
-Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm
+Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm   ------  Stock  BuyStock  SellStock
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
-Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm
+Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
 Benefit : To reuse the codes.
 
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
 
 5. State - A class behavior changes based on its state.
-Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm
+Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm   ---------  Start Stop state
 
 6. Strategy - A class behavior or its algorithm can be changed at run time.
 Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
-https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
+https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm  ------- Add Subtract Multiply
 
 7. Interpreter - Provides a way to evaluate language grammer or expression.
 Example: MM/DD/yyyy
@@ -84,7 +84,7 @@ https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
 Example: Iterator
 
 9. Mediator - Reduces communication complexity between multiple objects or classes.
-https://github.com/MdAslamHossain/Java-Design-Patterns/edit/master/README.md
+https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm ------ User Chat Room
 
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
