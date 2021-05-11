@@ -1,7 +1,7 @@
 # Java-Design-Patterns
 
 ## What is Design-Patterns ?
-Design patterns are the best solutions to general problems that software developers faced during software development.
+Design patterns are the best solutions to general problems that software developers faced during software development. According to Gang Of Four these are 23.
 
 ## Types of design patterns ?
 1. Creational patterns - Best way to create object at a perticular moment.
