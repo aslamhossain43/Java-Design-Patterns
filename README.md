@@ -107,7 +107,7 @@ Yes, it is possible to create a clone of a singleton object.
 4. Event handling frameworks use observer pattern like swing, awt.
 
 
-
-
+# Tutorials:
+https://www.jobsity.com/blog/a-deep-dive-into-9-popular-design-patterns-and-their-uses
 
 
