@@ -25,7 +25,8 @@ https://www.tutorialspoint.com/design_pattern/factory_pattern.htm   -----  Shape
 Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm  ----- 
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
-Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build(); 
+Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
+ https://www.geeksforgeeks.org/builder-pattern-in-java/
 
 4. Singleton – Ensures that at most only one instance of an object exists throughout application.
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
