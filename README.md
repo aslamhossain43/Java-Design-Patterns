@@ -32,7 +32,7 @@ Example: When object can't be created in single step like  Locale locale = new B
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
 
 5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object.
-https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm  ---------  Shape clone ShapeCache
+https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/  ---------  Shape clone ShapeCache
 
 ## Structural design patterns
 
