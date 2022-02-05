@@ -41,7 +41,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
 https://www.tutorialspoint.com/design_pattern/facade_pattern.htm  ------ Abstract Factory
 
-2. Adapter - Bring existing objects to form another structures which provide new functionality. Example: List<String> list = Arrays.asList(arrayObj);---https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm   -------  AdvancedMediaPlayer MediaPlayer MediaAdapter
+2. Adapter - Convert the interface of a class into another interface clients expect. Example: Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/
 
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: See : https://www.youtube.com/watch?v=GPNVN4TnvMU
 Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm  ------- DrawAPI   Shape
