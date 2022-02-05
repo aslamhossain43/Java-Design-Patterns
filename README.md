@@ -4,14 +4,14 @@
 Design patterns are the best solutions to general problems that software developers faced during software development. According to Gang Of Four these are 23.
 
 ## Types of design patterns ?
-1. Creational patterns - Best way to create object at a perticular moment.
+1. Creational patterns - Best way to create object without showing new operator .
 Example: The Factory pattern is used in Wrapper classes ----- Integer intVal = Integer.valueOf(doubleValue);
 
 2. Structural patterns - How classes and objects can be composed, to form larger structures.
 Example: The Adapter pattern in Java ---- List<String> list = Arrays.asList(arrayObj);
 
-3. Behavioral patterns - The interaction and responsibility of objects.
-Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the List objects will be sorted. Internally the List objects are interacting with each other to sort.
+3. Behavioral patterns - Used to manage algorithms, relationships and responsibilities between objects.
+Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>).
 
 
 ## Creatioinal design patterns
@@ -28,11 +28,11 @@ Example: Factories creation to access data from different data sources. Assume y
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
  https://www.geeksforgeeks.org/builder-pattern-in-java/
 
-4. Singleton – Ensures that at most only one instance of an object exists throughout application.
-Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime).
+4. Singleton – Ensures that at most only one instance of an object exists whole application.
+Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime). https://www.javatpoint.com/singleton-design-pattern-in-java
 
 5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object.
-https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/  ---------  Shape clone ShapeCache
+https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
 
 ## Structural design patterns
 
