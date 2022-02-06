@@ -48,7 +48,7 @@ Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm  ------- 
 
 4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  ----- One shape one circle
 
-5. Decorator - To add new functionality to an existing object without altering it's structure. Example: BufferedReader and BufferedWriter are some excellent examples of decorator pattern in Java. https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm  ----- RedShapDecorator
+5. Decorator - To add new functionality to an existing object without altering it's structure. https://www.javatpoint.com/decorator-pattern
 
 6. Composite - To use a group of objects as a single object.https://www.tutorialspoint.com/design_pattern/composite_pattern.htm  ---- CEO
 
