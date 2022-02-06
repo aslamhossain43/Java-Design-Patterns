@@ -38,8 +38,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### FAB FDCP(7)
 
-1. Facade - Provides an interface hiding complexity of classes, library or framework. Example: Every Abstract Factory is a type of Facade.
-https://www.tutorialspoint.com/design_pattern/facade_pattern.htm  ------ Abstract Factory
+1. Facade - Hides the complexity and provide simplicity to the client. https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
 
 2. Adapter - Convert the interface of a class into another interface clients expect. Example: Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
