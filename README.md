@@ -90,7 +90,7 @@ https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm ------ User C
 Example: ctrl+z
 
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
-Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt.
+Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
 
 
 
