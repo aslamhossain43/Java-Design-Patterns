@@ -72,9 +72,8 @@ Benefit : To reuse the codes.
 5. State - A class behavior changes based on its state.
 Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm   ---------  Start Stop state
 
-6. Strategy - A class behavior or its algorithm can be changed at run time.
-Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>) method. The Comparator in this method is the strategy used to solve how the list will be sorted. Internally the list objects are communicating which is hidden.
-https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm  ------- Add Subtract Multiply
+6. Strategy - A class's algorithm can be changed at run time.
+Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
 7. Interpreter - Provides a way to evaluate language grammer or expression.
 Example: MM/DD/yyyy
