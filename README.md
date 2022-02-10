@@ -38,16 +38,16 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### FAB FDCP(7)
 
-1. Facade - Hides complexity and provide simplicity to the client. https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
+1. Facade - Hides complexity and provide simplicity to the client.Example:Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
 
-2. Adapter - Convert the interface of a class into another interface clients expect. Example: Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
+2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
 3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: See : https://www.youtube.com/watch?v=GPNVN4TnvMU
 Code: https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm  ------- DrawAPI   Shape
 
 4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  ----- One shape one circle
 
-5. Decorator - To add new functionality to an existing object without altering it's structure. https://www.javatpoint.com/decorator-pattern
+5. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
 6. Composite - To use a group of objects as a single object.https://www.tutorialspoint.com/design_pattern/composite_pattern.htm  ---- CEO
 
