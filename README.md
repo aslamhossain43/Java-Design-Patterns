@@ -42,7 +42,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
-3. Bridge - Decouple an abstraction from it's implimentation then they can vary independently. Example: Vehicle,  https://www.geeksforgeeks.org/bridge-design-pattern/
+3. Bridge - Decouple an abstraction from it's implimentation. Example: Vehicle,  https://www.geeksforgeeks.org/bridge-design-pattern/
 
 4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  ----- One shape one circle
 
