@@ -50,8 +50,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 6. Composite - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
 
-7. Proxy - provides the control for accessing the original object.
-Example - Credit/Master card.https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm  ---------  RealImage ProxyImage
+7. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://www.geeksforgeeks.org/proxy-design-pattern/
 
 ## Behavioral design patterns
 
