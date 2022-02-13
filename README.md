@@ -48,7 +48,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 5. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
-6. Composite - To use a group of objects as a single object.https://www.tutorialspoint.com/design_pattern/composite_pattern.htm  ---- CEO
+6. Composite - To use a group of objects which form a tree(hierarchy,menue) and treated as a single object.https://www.geeksforgeeks.org/composite-design-pattern/
 
 7. Proxy - provides the control for accessing the original object.
 Example - Credit/Master card.https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm  ---------  RealImage ProxyImage
