@@ -58,8 +58,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling, ATM Dispense machine. https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
 
-2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
-Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm   ------  Stock  BuyStock  SellStock
+2. Command - To abstract business logic into discrete actions. Example : Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
 Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
