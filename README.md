@@ -56,7 +56,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### CCTV SSIIMMO(11)
 
-1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling. https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
+1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling, ATM Dispense machine. https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
 
 2. Command - An object used to encapsulate all information needed to perform an action or trigger an event at a later time.
 Example : See https://www.tutorialspoint.com/design_pattern/command_pattern.htm   ------  Stock  BuyStock  SellStock
