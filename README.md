@@ -61,7 +61,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 2. Command - To abstract business logic into discrete actions. Example : Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
-Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
+Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
 Benefit : To reuse the codes.
 
 4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
