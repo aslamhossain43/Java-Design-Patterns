@@ -5,7 +5,7 @@ Design patterns are the best solutions to general problems that software develop
 
 ## Types of design patterns ?
 1. Creational patterns - Best way to create object without showing new operator .
-Example: The Factory pattern is used in Wrapper classes ----- Integer intVal = Integer.valueOf(doubleValue);
+Example: The Factory pattern is used in Wrapper classes - Integer intVal = Integer.valueOf(doubleValue);
 
 2. Structural patterns - How classes and objects can be composed, to form larger structures.
 Example: The Adapter pattern in Java - List<String> list = Arrays.asList(arrayObj);
@@ -40,11 +40,11 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 1. Facade - Hides complexity and provide simplicity to the client.Example:Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
 
-2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader--- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
+2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
 3. Bridge - Decouple an abstraction from it's implimentation. Example: Vehicle,  https://www.geeksforgeeks.org/bridge-design-pattern/
 
-4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  ----- One shape one circle
+4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  - One shape one circle
 
 5. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
