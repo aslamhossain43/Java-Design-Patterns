@@ -64,7 +64,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
 Benefit : To reuse the codes.
 
-4. Visitor - Defines a new operation without introducing the modifications to an existing object structure.
+4. Visitor - Allows adding new behaviors to existing class hierarchy without altering any existing code. Example https://howtodoinjava.com/design-patterns/behavioral/visitor-design-pattern-example-tutorial/
 
 5. State - A class behavior changes based on its state.
 Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm   ---------  Start Stop state
