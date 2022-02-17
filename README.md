@@ -8,7 +8,7 @@ Design patterns are the best solutions to general problems that software develop
 Example: The Factory pattern is used in Wrapper classes ----- Integer intVal = Integer.valueOf(doubleValue);
 
 2. Structural patterns - How classes and objects can be composed, to form larger structures.
-Example: The Adapter pattern in Java ---- List<String> list = Arrays.asList(arrayObj);
+Example: The Adapter pattern in Java - List<String> list = Arrays.asList(arrayObj);
 
 3. Behavioral patterns - Used to manage algorithms, relationships and responsibilities between objects.
 Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>).
@@ -18,7 +18,7 @@ Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparato
 
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
-Example: The Wrapper classes use factory pattern like -- Integer intVal = Integer.valueOf(doubleValue);
+Example: The Wrapper classes use factory pattern like - Integer intVal = Integer.valueOf(doubleValue);
 https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 
 2. Abstract Factory – It is also called a factory of factories.
@@ -61,13 +61,13 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 2. Command - To abstract business logic into discrete actions. Example : Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
-Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  ----------  Game initialize(); startPlay(); endPlay();
+Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
 Benefit : To reuse the codes.
 
 4. Visitor - Allows adding new behaviors to existing class hierarchy without altering any existing code. Example https://howtodoinjava.com/design-patterns/behavioral/visitor-design-pattern-example-tutorial/
 
 5. State - A class behavior changes based on its state.
-Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm   ---------  Start Stop state
+Example : https://www.tutorialspoint.com/design_pattern/state_pattern.htm   -  Start Stop state
 
 6. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
@@ -80,7 +80,7 @@ https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
 Example: Iterator
 
 9. Mediator - Reduces communication complexity between multiple objects or classes.
-https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm ------ User Chat Room
+https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm - User Chat Room
 
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
