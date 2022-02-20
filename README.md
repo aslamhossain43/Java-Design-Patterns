@@ -66,7 +66,7 @@ Benefit : To reuse the codes.
 
 4. Visitor - Allows adding new behaviors to existing class hierarchy without altering any existing code. Adding router configuration for windows  https://howtodoinjava.com/design-patterns/behavioral/visitor-design-pattern-example-tutorial/
 
-5. State - An object changes it's behaviour based on its current state.Example : https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
+5. State - Allows an object to change its behavior when the internal state of that object changes.Example : https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
 
 6. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
