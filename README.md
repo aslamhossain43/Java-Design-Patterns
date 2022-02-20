@@ -71,9 +71,7 @@ Benefit : To reuse the codes.
 6. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
-7. Interpreter - Provides a way to evaluate language grammer or expression.
-Example: MM/DD/yyyy
-https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
+7. Interpreter - Is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar. Example: java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
 
 8. Iterator - Provides a way to access the elements of a collection without knowing it's underlying representation.
 Example: Iterator
