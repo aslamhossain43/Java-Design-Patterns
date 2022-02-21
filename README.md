@@ -75,8 +75,7 @@ Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tu
 
 8. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
 
-9. Mediator - Reduces communication complexity between multiple objects or classes.
-https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm - User Chat Room
+9. Mediator - Reduces communication complexity between multiple objects or classes.https://www.javatpoint.com/mediator-pattern - Chat
 
 10. Memento - To restore the state of an object to its previous state.
 Example: ctrl+z
