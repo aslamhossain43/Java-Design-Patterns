@@ -77,8 +77,7 @@ Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tu
 
 9. Mediator - Reduces communication complexity between multiple objects or classes.https://www.javatpoint.com/mediator-pattern - Chat
 
-10. Memento - To restore the state of an object to its previous state.
-Example: ctrl+z
+10. Memento - To restore the state of an object to its previous state.Example: ctrl+z, https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
 
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
 Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
