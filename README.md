@@ -28,7 +28,7 @@ Example: Factories creation to access data from different data sources. Assume y
 Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
  https://www.geeksforgeeks.org/builder-pattern-in-java/
 
-4. Singleton – Ensures that at most only one instance of an object exists whole application.
+4. Singleton – Ensures that at most only one instance of a class exists whole application.
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime). https://www.javatpoint.com/singleton-design-pattern-in-java
 
 5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object.
