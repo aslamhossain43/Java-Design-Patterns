@@ -31,7 +31,7 @@ Example: When object can't be created in single step like  Locale locale = new B
 4. Singleton – Ensures that at most only one instance of a class exists whole application.
 Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime). https://www.javatpoint.com/singleton-design-pattern-in-java
 
-5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object.
+5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object. In game, most of the starting data are same for every user. It is clonable for every user.
 https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
 
 ## Structural design patterns
