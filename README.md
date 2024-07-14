@@ -38,7 +38,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### FAB FDCP(7)
 
-1. Facade - Hides complexity and provide simplicity to the client.Example:Power on of PC, Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
+1. Facade - Hides complexity and provide simplicity to the client.Example: Power on of PC, Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
 
 2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
