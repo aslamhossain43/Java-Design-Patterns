@@ -7,7 +7,7 @@ Design patterns are the best solutions to general problems that software develop
 1. Creational patterns - Best way to create object without showing new operator .
 Example: The Factory pattern is used in Wrapper classes - Integer intVal = Integer.valueOf(doubleValue);
 
-2. Structural patterns - How classes and objects can be composed, to form larger structures.
+2. Structural patterns - How classes and objects can be composed to form larger structures.
 Example: The Adapter pattern in Java - List<String> list = Arrays.asList(arrayObj);
 
 3. Behavioral patterns - Used to manage algorithms, relationships and responsibilities between objects.
@@ -38,19 +38,19 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### FAB FDCP(7)
 
-1. Facade - Hides complexity and provide simplicity to the client.Example: Power on of PC, Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
+1. Facade - Provides a simplified interface to a complex subsystem. Example: Power on of PC, Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
 
-2. Adapter - Convert the interface of a class into another interface clients expect. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
+2. Adapter - Allows incompatible interfaces to work together. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
 
-3. Bridge - Decouple an abstraction from it's implimentation. Example: Vehicle,  https://www.geeksforgeeks.org/bridge-design-pattern/
+3. Bridge - Decouple an abstraction from it's implimentation so that the two can vary independently. Example: Separating the UI of a database from its implementation, so the database can be changed without affecting the UI, https://www.geeksforgeeks.org/bridge-design-pattern/
 
-4. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  - One shape one circle
+5. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  - One shape one circle
 
-5. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
+6. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
-6. Composite - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
+7. Composite - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
 
-7. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://www.geeksforgeeks.org/proxy-design-pattern/
+8. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://www.geeksforgeeks.org/proxy-design-pattern/
 
 ## Behavioral design patterns
 
