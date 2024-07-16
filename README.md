@@ -1,4 +1,4 @@
-# Java-Design-Patterns
+# Java-Design-Patterns https://refactoring.guru/design-patterns/what-is-pattern
 
 ## What is Design-Patterns ?
 Design patterns are the best solutions to general problems that software developers faced during software development. According to Gang Of Four these are 23.
@@ -38,9 +38,9 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### FAB FDCP(7)
 
-1. Facade - Provides a simplified interface to a complex subsystem. Example: Power on of PC, Report,  https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/
+1. Facade - Provides a simplified interface to a complex subsystem. Example: https://refactoring.guru/design-patterns/facade
 
-2. Adapter - Allows incompatible interfaces to work together. Example: Speed convert, Laptop charger, card reader, Arrays#asList(), BufferedReader- https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/, https://www.baeldung.com/java-adapter-pattern
+2. Adapter - Allows incompatible interfaces to work together. Example: https://refactoring.guru/design-patterns/adapter
 
 3. Bridge - Decouple an abstraction from it's implimentation so that the two can vary independently. Example: Separating the UI of a database from its implementation, so the database can be changed without affecting the UI, https://www.geeksforgeeks.org/bridge-design-pattern/
 
