@@ -42,7 +42,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 2. Adapter - Allows incompatible interfaces to work together. Example: https://refactoring.guru/design-patterns/adapter
 
-3. Bridge - Decouple an abstraction from it's implimentation so that the two can vary independently. Example: Separating the UI of a database from its implementation, so the database can be changed without affecting the UI, https://www.geeksforgeeks.org/bridge-design-pattern/
+3. Bridge - Decouple an abstraction from it's implimentation so that the two can be changed independently. Example: Remote control device Separating the UI of a database from its implementation, so the database can be changed without affecting the UI, https://refactoring.guru/design-patterns/bridge
 
 5. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  - One shape one circle
 
