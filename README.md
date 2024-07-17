@@ -42,9 +42,9 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 2. Adapter - Allows incompatible interfaces to work together. Example: https://refactoring.guru/design-patterns/adapter
 
-3. Bridge - Decouple an abstraction from it's implimentation so that the two can be changed independently. Example: In remote control device, Abstraction: remote and Implementation: device https://refactoring.guru/design-patterns/bridge
+3. Bridge - Decouple an abstraction from its implementation so that the two can be changed independently. Example: In remote control device, Abstraction: remote and Implementation: device https://refactoring.guru/design-patterns/bridge
 
-5. Flyweight - Reuse existing similar kind of objects and create new object when no matching object is found. Example: Like factory pattern but here if object is null then create new. https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm  - One shape one circle
+5. Flyweight or Cache - To save RAM share(reuse) the common parts of the state between multiple objects instead of keeping all of the data in each object. Example: https://refactoring.guru/design-patterns/flyweight
 
 6. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
