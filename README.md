@@ -40,13 +40,13 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 1. Facade - Provides a simplified interface to a complex subsystem. Example: https://refactoring.guru/design-patterns/facade
 
-2. Adapter - Allows incompatible interfaces to work together. Example: https://refactoring.guru/design-patterns/adapter
+2. Adapter or Wrapper - Allows incompatible interfaces to work together. Example: https://refactoring.guru/design-patterns/adapter
 
 3. Bridge - Decouple an abstraction from its implementation so that the two can be changed independently. Example: In remote control device, Abstraction: remote and Implementation: device https://refactoring.guru/design-patterns/bridge
 
 5. Flyweight or Cache - To save RAM share(reuse) the common parts of the state between multiple objects instead of keeping all of the data in each object. Example: https://refactoring.guru/design-patterns/flyweight
 
-6. Decorator - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
+6. Decorator or Wrapper - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
 
 7. Composite - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
 
