@@ -46,7 +46,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 5. Flyweight or Cache - To save RAM share(reuse) the common parts of the state between multiple objects instead of keeping all of the data in each object. Example: https://refactoring.guru/design-patterns/flyweight
 
-6. Decorator or Wrapper - To add new functionality to an existing object without altering it's structure. Food making, https://www.javatpoint.com/decorator-pattern
+6. Decorator or Wrapper - To add new functionality to an existing object without altering it's structure. https://www.javatpoint.com/decorator-pattern, https://refactoring.guru/design-patterns/decorator
 
 7. Composite - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
 
