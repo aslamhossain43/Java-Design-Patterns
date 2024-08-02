@@ -48,7 +48,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 6. Decorator or Wrapper - To add new functionality to an existing object without altering it's structure. https://www.javatpoint.com/decorator-pattern, https://refactoring.guru/design-patterns/decorator
 
-7. Composite or Object Tree - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object.https://www.geeksforgeeks.org/composite-design-pattern/
+7. Composite or Object Tree - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object. Cashier, accountant these are under bank manager. https://www.javatpoint.com/composite-pattern
 
 8. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://www.geeksforgeeks.org/proxy-design-pattern/
 
