@@ -46,11 +46,11 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 5. Flyweight or Cache - To save RAM share(reuse) the common parts of the state between multiple objects instead of keeping all of the data in each object. Example: https://refactoring.guru/design-patterns/flyweight
 
-6. Decorator or Wrapper - To add new functionality to an existing object without altering it's structure. https://www.javatpoint.com/decorator-pattern, https://refactoring.guru/design-patterns/decorator
+6. Decorator or Wrapper - To add new functionality to an existing object without altering its structure. https://www.javatpoint.com/decorator-pattern, https://refactoring.guru/design-patterns/decorator
 
-7. Composite or Object Tree - A group of objects which form a tree(hierarchy,menue) and treated as a same type single object. Cashier, accountant these are under bank manager. https://www.javatpoint.com/composite-pattern
+7. Composite or Object Tree - A group of objects that form a tree(hierarchy, menu) and are treated as a same type single object. Cashier, accountant these are under the bank manager. https://www.javatpoint.com/composite-pattern
 
-8. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://www.geeksforgeeks.org/proxy-design-pattern/
+8. Proxy - Provides the control for accessing the original object. Example - Credit/Master card, Security to block site.https://refactoring.guru/design-patterns/proxy
 
 ## Behavioral design patterns
 
