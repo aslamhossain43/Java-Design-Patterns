@@ -1,37 +1,37 @@
 # Java-Design-Patterns https://refactoring.guru/design-patterns/what-is-pattern
 
-## What is Design-Patterns ?
-Design patterns are the best solutions to general problems that software developers faced during software development. According to Gang Of Four these are 23.
+## What is Design-Patterns?
+Design patterns are the best solutions to general problems that software developers face during software development. According to Gang Of Four, these are 23.
 
-## Types of design patterns ?
-1. Creational patterns - Best way to create object without showing new operator .
-Example: The Factory pattern is used in Wrapper classes - Integer intVal = Integer.valueOf(doubleValue);
+## Types of design patterns?
+1. Creational patterns - The best way to create an object without showing a new operator.
+Example: The Factory pattern is used in Wrapper classes - Integer i = Integer.valueOf(doubleValue);
 
 2. Structural patterns - How classes and objects can be composed to form larger structures.
 Example: The Adapter pattern in Java - List<String> list = Arrays.asList(arrayObj);
 
-3. Behavioral patterns - Used to manage algorithms, relationships and responsibilities between objects.
+3. Behavioral patterns - Used to manage algorithms, relationships, and responsibilities between objects.
 Example: The strategy pattern in Java is the Collections.sort(List<T>, Comparator<? super T>).
 
 
-## Creatioinal design patterns
+## Creational design patterns
 
 ### FAB SP(5)
 1. Factory – Creates object without showing logic.
-Example: The Wrapper classes use factory pattern like - Integer intVal = Integer.valueOf(doubleValue);
+Example: The Wrapper classes use factory pattern like - Integer i = Integer.valueOf(doubleValue);
 https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 
 2. Abstract Factory – It is also called a factory of factories.
 Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
 
 3. Builder – Construct a complex object from simple objects using step-by-step approach. 
-Example: When object can't be created in single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
+Example: When an object can't be created in a single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
  https://www.geeksforgeeks.org/builder-pattern-in-java/
 
 4. Singleton – Ensures that at most only one instance of a class exists whole application.
-Example: Saves memory because object is not created at each request. Only single instance is reused again and again.It used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime). https://www.javatpoint.com/singleton-design-pattern-in-java
+Example: Saves memory because an object is not created at each request. Only a single instance is reused again and again. It is used in multi-threaded and database applications. It is used in logging, caching, thread pools, configuration settings etc. It is used by Calendar classes (Runtime). https://www.javatpoint.com/singleton-design-pattern-in-java
 
-5. Prototype Pattern - Cloning of an existing object Example: Cloning object that reduces memory consume because more objects refrence point to the same object. In game, most of the starting data are same for every user. It is clonable for every user.
+5. Prototype Pattern - Cloning of an existing object Example: Cloning object reduces memory consumption because more objects reference point to the same object. In the game, most of the starting data are same for every user. It is clonable for every user.
 https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
 
 ## Structural design patterns
@@ -56,9 +56,9 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 ### CCTV SSIIMMO(11)
 
-1. Chain of Responsibility - Allows to pass request to the chain of handlers until one of them handles request and decouple if sender and receiver based request. Exmaple: Exception handling, ATM Dispense machine. https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java
+1. Chain of Responsibility or CoR or Chain of Command - Allows to pass a request to the chain of handlers until one of them handles the request and decouples the request. Examples: In exception handling catch block. https://www.geeksforgeeks.org/chain-responsibility-design-pattern/
 
-2. Command - To abstract business logic into discrete actions. Example : Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
+2. Command - To abstract business logic into discrete actions. Example: Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
 Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
