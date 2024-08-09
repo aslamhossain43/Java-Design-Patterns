@@ -58,7 +58,7 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 1. Chain of Responsibility or CoR or Chain of Command - Allows to pass a request to the chain of handlers until one of them handles the request and decouples the request. Examples: In exception handling catch block. https://www.geeksforgeeks.org/chain-responsibility-design-pattern/
 
-2. Command - To abstract business logic into discrete actions. Example: Remote,  https://howtodoinjava.com/design-patterns/behavioral/command-pattern/
+2. Command or Action or Transaction - To abstract business logic into discrete actions. Example: Remote. https://www.geeksforgeeks.org/command-pattern/
 
 3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
 Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
