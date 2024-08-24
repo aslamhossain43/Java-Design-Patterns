@@ -66,7 +66,7 @@ Benefit: To reuse the codes.
 
 4. Visitor - Used to perform an operation on a group of similar kind of Objects. Example: Shopping cart visitor https://www.geeksforgeeks.org/visitor-design-pattern/
 
-5. State - Allows an object to change its behavior when the internal state of that object changes.Example : https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
+5. State - Allows an object to change its behavior when the internal state of that object changes. Example: https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
 
 6. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
