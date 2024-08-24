@@ -60,11 +60,11 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 2. Command or Action or Transaction - To abstract business logic into discrete actions. Example: Remote. https://www.geeksforgeeks.org/command-pattern/
 
-3. Template - A secuence of steps of an algorithm.The subclasses are allowed to override the steps but not allowed to change the steps.
+3. Template - A sequence of steps of an algorithm. The subclasses are allowed to override the steps but not allowed to change the steps.
 Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
-Benefit : To reuse the codes.
+Benefit: To reuse the codes.
 
-4. Visitor - Allows adding new behaviors to existing class hierarchy without altering any existing code. Adding router configuration for windows  https://howtodoinjava.com/design-patterns/behavioral/visitor-design-pattern-example-tutorial/
+4. Visitor - Used to perform an operation on a group of similar kind of Objects. Example: Shopping cart visitor https://www.geeksforgeeks.org/visitor-design-pattern/
 
 5. State - Allows an object to change its behavior when the internal state of that object changes.Example : https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
 
