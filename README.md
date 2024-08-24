@@ -69,7 +69,7 @@ Benefit: To reuse the codes.
 5. State - Allows an object to change its behavior when the internal state of that object changes.Example : https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
 
 6. Strategy - A class's algorithm can be changed at run time.
-Example: Collections.sort(List<T>, Comparator<? super T>) method. https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
+Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
 7. Interpreter - Is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
 
