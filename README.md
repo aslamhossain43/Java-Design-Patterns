@@ -66,12 +66,12 @@ Benefit: To reuse the codes.
 
 4. Visitor - Used to perform an operation on a group of similar kind of Objects. Example: Shopping cart visitor https://www.geeksforgeeks.org/visitor-design-pattern/
 
-5. State - Allows an object to change its behavior when the internal state of that object changes. Example: https://howtodoinjava.com/design-patterns/behavioral/state-design-pattern/, https://dzone.com/articles/state-design-pattern-in-java  -  TV on/of, Start stop state.
+5. State - A class's behavior changes based on its state. Example: Start-stop state. https://www.tutorialspoint.com/design_pattern/state_pattern.htm
 
 6. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
-7. Interpreter - Is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
+7. Interpreter - Is used to define a grammatical representation of a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
 
 8. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
 
@@ -80,7 +80,7 @@ Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorials
 10. Memento - To restore the state of an object to its previous state.Example: ctrl+z, https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
 
 11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
-Example: One-to-one, one-to-many etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
+Example: One-to-one, one-to-many, etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
 
 
 
