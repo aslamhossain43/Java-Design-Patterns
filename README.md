@@ -78,7 +78,7 @@ Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorials
 
 11. Memento - To restore the state of an object to its previous state.Example: ctrl+z, https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
 
-12. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
+12. Observer or publish-subscribe - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
 Example: One-to-one, one-to-many, etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
 
 
