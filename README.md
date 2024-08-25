@@ -1,4 +1,4 @@
-# Java-Design-Patterns https://refactoring.guru/design-patterns/what-is-pattern
+# Java-Design-Patterns https://refactoring.guru/design-patterns/what-is-pattern, https://sourcemaking.com/design_patterns
 
 ## What is Design-Patterns?
 Design patterns are the best solutions to general problems that software developers face during software development. According to Gang Of Four, these are 23.
