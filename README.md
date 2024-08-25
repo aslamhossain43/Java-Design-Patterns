@@ -74,9 +74,10 @@ Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorials
 
 9. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
 
-10. Mediator - Reduces communication complexity between multiple objects or classes.https://www.javatpoint.com/mediator-pattern - Chat
+10. Mediator or controller of MVC pattern - Reduces coupling between components of a program by making them communicate indirectly, through a special mediator object.
+    Example: https://www.digitalocean.com/community/tutorials/mediator-design-pattern-java - Chat room
 
-11. Memento or Snapshot - Lets you save and restore the previous state of an object without revealing the details of its implementation.
+12. Memento or Snapshot - Lets you save and restore the previous state of an object without revealing the details of its implementation.
     Example: save and undo, ctrl+z, https://www.geeksforgeeks.org/memento-design-pattern/
 
 13. Observer or publish-subscribe - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
