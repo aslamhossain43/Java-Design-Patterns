@@ -60,26 +60,25 @@ https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in
 
 2. Command or Action or Transaction - To abstract business logic into discrete actions. Example: Remote. https://www.geeksforgeeks.org/command-pattern/
 
-3. Template - A sequence of steps of an algorithm. The subclasses are allowed to override the steps but not allowed to change the steps.
-Example : https://howtodoinjava.com/design-patterns/behavioral/template-method-pattern/, https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
-Benefit: To reuse the codes.
+3. Template - Allows you to define a skeleton of an algorithm in a base class and let subclasses override the steps without changing the overall algorithm’s structure.
+   Example : https://www.tutorialspoint.com/design_pattern/template_pattern.htm  - Game initialize(); startPlay(); endPlay();
 
-4. Visitor - Used to perform an operation on a group of similar kind of Objects. Example: Shopping cart visitor https://www.geeksforgeeks.org/visitor-design-pattern/
+5. Visitor - Used to perform an operation on a group of similar kind of Objects. Example: Shopping cart visitor https://www.geeksforgeeks.org/visitor-design-pattern/
 
-5. State - A class's behavior changes based on its state. Example: Start-stop state. https://www.tutorialspoint.com/design_pattern/state_pattern.htm
+6. State - A class's behavior changes based on its state. Example: Start-stop state. https://www.tutorialspoint.com/design_pattern/state_pattern.htm
 
-6. Strategy - A class's algorithm can be changed at run time.
+7. Strategy - A class's algorithm can be changed at run time.
 Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm
 
-7. Interpreter - Is used to define a grammatical representation of a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
+8. Interpreter - Is used to define a grammatical representation of a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
 
-8. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
+9. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
 
-9. Mediator - Reduces communication complexity between multiple objects or classes.https://www.javatpoint.com/mediator-pattern - Chat
+10. Mediator - Reduces communication complexity between multiple objects or classes.https://www.javatpoint.com/mediator-pattern - Chat
 
-10. Memento - To restore the state of an object to its previous state.Example: ctrl+z, https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
+11. Memento - To restore the state of an object to its previous state.Example: ctrl+z, https://howtodoinjava.com/design-patterns/behavioral/memento-design-pattern/
 
-11. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
+12. Observer - In one-to-one dependency when one object changes state, all its dependents are notified and updated automatically.
 Example: One-to-one, one-to-many, etc, Event handling frameworks like swing, awt. https://howtodoinjava.com/design-patterns/behavioral/observer-design-pattern/
 
 
