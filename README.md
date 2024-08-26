@@ -72,7 +72,7 @@ Example: Collections.sort(List<T>, Comparator<? super T>). https://www.tutorials
 
 8. Interpreter - Is used to define a grammatical representation of a language and provides an interpreter to deal with this grammar. Example: java.util.Pattern, java.text.Format, java compiler, google translator, https://www.journaldev.com/1635/interpreter-design-pattern-java
 
-9. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation.Example: Iterator, https://www.javatpoint.com/iterator-pattern
+9. Iterator - Provides a way to access the elements of an aggregate object sequentially without exposing its underlying implementation. Example: Iterator, https://howtodoinjava.com/design-patterns/behavioral/iterator-design-pattern/
 
 10. Mediator or controller of MVC pattern - Reduces coupling between components of a program by making them communicate indirectly, through a special mediator object.
     Example: https://www.digitalocean.com/community/tutorials/mediator-design-pattern-java - Chat room
