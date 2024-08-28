@@ -31,8 +31,9 @@ Example: Produce different types and representations of an object. A post can ha
 Example: Government. https://refactoring.guru/design-patterns/singleton
 Benefit: Saves memory because an object is not created at each request. Only a single instance is reused again and again. It is used in logging, caching, thread pools, configuration settings, Calendar classes (Runtime). multi-threaded and database applications. 
 
-6. Prototype Pattern - Cloning of an existing object Example: Cloning object reduces memory consumption because more objects reference point to the same object. In the game, most of the starting data are same for every user. It is clonable for every user.
-https://howtodoinjava.com/design-patterns/creational/prototype-design-pattern-in-java/
+6. Prototype Pattern - Copy existing objects without making your code dependent on their classes.
+   Example: Cloning object reduces memory consumption because more objects reference point to the same object. In the game, most of the starting data are same for every user. It is clonable for every user.
+   https://refactoring.guru/design-patterns/prototype, https://www.geeksforgeeks.org/prototype-design-pattern/
 
 ## Structural design patterns
 
