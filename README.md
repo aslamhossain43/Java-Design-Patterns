@@ -24,9 +24,8 @@ https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 2. Abstract Factory – It is also called a factory of factories.
 Example: Factories creation to access data from different data sources. Assume your application supports different data stores. (e.g. a SQL Database and an XML file, Text file).https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm
 
-3. Builder – Construct a complex object from simple objects using step-by-step approach. 
-Example: When an object can't be created in a single step like  Locale locale = new Builder().setLanguage("sr").setScript("Latn").setRegion("RS").build();
- https://www.geeksforgeeks.org/builder-pattern-in-java/
+3. Builder – Construct complex objects step by step. 
+Example: Produce different types and representations of an object. A post can have a title only or body also or category only or all of them. https://www.baeldung.com/java-builder-pattern
 
 4. Singleton – Ensures that only one instance of a class exists whole application.
 Example: Government. https://refactoring.guru/design-patterns/singleton
